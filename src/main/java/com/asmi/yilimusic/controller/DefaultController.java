@@ -17,5 +17,10 @@ public class DefaultController {
         return "Welcome Yili-Music!";
     }
 
+    @GetMapping("/test")
+    public String test(){
+        return "This is a test!";
+    }
+
 
 }
